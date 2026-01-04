@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>{% block title %}My Learning Platform{% endblock %}</title>
+  </head>
+  <body>
+  
+  <header style="background:#eec007;color:white;padding:10px">
+    <h2>Course Website</h2>
+    <a href="/course/">Course</a> |
+    <a href="/course1/">Course1</a>
+  </header>
+  
+  <hr>
+  
+  {% block content %}
+  {% endblock %}
+  
+  <hr>
+  
+  <footer style="background:#04c6fc;padding:10px">
+    <p>© 2025 Learning Platform</p>
+  </footer>
+  
+  </body>
+  </html>
